@@ -1,0 +1,25 @@
+{
+  "topicos": [
+    {
+      "nombre": "cmd/#",
+      "detalle": "Lógica para enviar comandos o huellas a los sensores"
+    }, {
+      "nombre": "c/+",
+      "detalle": "Paquetes hexadecimales enviados a todos los sensores"
+    }, {
+      "nombre": "r/+",
+      "detalle": "Respuestas recibidas de los sensores"
+    }, {
+      "nombre": "p/+",
+      "detalle": "Mensaje de de acceso de personal por alguna puerta"
+    }
+  ],
+  "clientesMqtt": [
+    {
+      "usuario": "admin",
+      "clave": "admin",
+      "admin": true,
+      "topicos": []
+    }
+  ]
+}

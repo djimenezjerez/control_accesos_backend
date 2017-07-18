@@ -1,0 +1,91 @@
+{
+  "arduinos": [
+    {
+      "mac": "DE:ED:BA:FE:01:00",
+      "ip": "192.168.1.10",
+      "ubicacion": null,
+      "detalle": "Arduino gpio",
+      "usuario": "ard0",
+      "control": true,
+      "puerta": null,
+      "topicos": [],
+      "pinesSalida": [16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+    }, {
+      "mac": "DE:ED:BA:FE:01:01",
+      "ip": "192.168.1.11",
+      "detalle": "Arduino puerta madera izquierda",
+      "usuario": "ard1",
+      "control": false,
+      "puerta": {
+        "nombre": "PMI",
+        "detalle": "Puerta madera izquierda",
+        "pin": 0,
+        "personas": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      },
+      "topicos": [
+        {
+          "nombre": "p/1",
+          "detalle": "Tópico puerta 1",
+          "permiso": "publicacion"
+        }
+      ]
+    }, {
+      "mac": "DE:ED:BA:FE:01:02",
+      "ip": "192.168.1.12",
+      "detalle": "Arduino puerta madera derecha",
+      "usuario": "ard2",
+      "control": false,
+      "puerta": {
+        "nombre": "PMD",
+        "detalle": "Puerta madera derecha",
+        "pin": 1,
+        "personas": [3, 4, 5, 6, 11, 12]
+      },
+      "topicos": [
+        {
+          "nombre": "p/2",
+          "detalle": "Tópico puerta 2",
+          "permiso": "publicacion"
+        }
+      ]
+    }, {
+      "mac": "DE:ED:BA:FE:01:03",
+      "ip": "192.168.1.13",
+      "detalle": "Arduino puerta vidrio izquierda",
+      "usuario": "ard3",
+      "control": false,
+      "puerta": {
+        "nombre": "PVI",
+        "detalle": "Puerta vidrio izquierda",
+        "pin": 2,
+        "personas": [5, 6, 7, 8, 11, 12]
+      },
+      "topicos": [
+        {
+          "nombre": "p/3",
+          "detalle": "Tópico puerta 3",
+          "permiso": "publicacion"
+        }
+      ]
+    }, {
+      "mac": "DE:ED:BA:FE:01:04",
+      "ip": "192.168.1.14",
+      "detalle": "Arduino puerta vidrio derecha",
+      "usuario": "ard4",
+      "control": false,
+      "puerta": {
+        "nombre": "PVD",
+        "detalle": "Puerta vidrio derecha",
+        "pin": 3,
+        "personas": [7, 8, 9, 10, 11, 12]
+      },
+      "topicos": [
+        {
+          "nombre": "p/4",
+          "detalle": "Tópico puerta 4",
+          "permiso": "publicacion"
+        }
+      ]
+    }
+  ]
+}

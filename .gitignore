@@ -1,0 +1,15 @@
+certs/
+doc/socket/
+doc/api_admin/
+doc/api/
+doc/mqtt/
+mqtt_servidor/api/publico/
+backup/
+logs/
+node_modules/
+.env
+datosInicialesBd.json
+npm-debug.log
+api_admin/publico/
+test.js
+.idea/

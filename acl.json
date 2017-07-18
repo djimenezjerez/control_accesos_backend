@@ -1,0 +1,31 @@
+[
+  {
+    "group": "admin",
+    "permissions": [
+      {
+        "resource": "*",
+        "methods": "*",
+        "action": "allow"
+      }
+    ]
+  }, {
+    "group": "user",
+    "permissions": [
+      {
+        "resource": "puertas",
+        "methods": [
+          "GET",
+          "OPTIONS"
+        ],
+        "action": "allow"
+      }, {
+        "resource": "puerta",
+        "methods": [
+          "POST",
+          "OPTIONS"
+        ],
+        "action": "allow"
+      }
+    ]
+  }
+]

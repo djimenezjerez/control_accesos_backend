@@ -1,0 +1,18 @@
+{
+  "name": "modelos_control_accesos",
+  "version": "1.0.0",
+  "description": "Modelos de la base de datos control de accesos",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "PostgreSQL"
+  ],
+  "author": "Daniel Jimenez Jerez",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^6.1.0",
+    "sequelize": "^3.27.0"
+  }
+}

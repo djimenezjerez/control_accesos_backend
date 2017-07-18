@@ -1,0 +1,8 @@
+{
+  "name": "Interfaz hardware control de accesos",
+  "version": "2.0.0",
+  "description": "Esta aplicación levanta un servidor en Node.js con conexión cifrada que recibe peticiones para realizar las diferentes acciones que puede ejecutar el hardware de control de puertas, como por ejemplo abrir una puerta o grabar huellas en los sensores de las puertas.",
+  "template": {
+    "forceLanguage": "es"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "error": {
+    "loginIncorrecto": {
+      "estado": 401,
+      "mensaje": "Usuario o contraseña incorrecta"
+    },
+    "noAutorizado": {
+      "estado": 401,
+      "mensaje": "No autorizado"
+    },
+    "datosErroneos": {
+      "estado": 403,
+      "mensaje": "Datos erróneos"
+    },
+    "ocupado": {
+      "estado": 409,
+      "mensaje": "Servidor ocupado"
+    },
+    "interno": {
+      "estado": 500,
+      "mensaje": "Error interno del servidor"
+    }
+  },
+  "correcto": {
+    "completado": {
+      "estado": 200
+    }
+  }
+}
