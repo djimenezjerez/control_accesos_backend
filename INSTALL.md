@@ -1,4 +1,4 @@
-# Sistema se seguridad de control de accesos mediante sensor biométrico de huella dactilar
+# Sistema de seguridad de control de accesos mediante sensor biométrico de huella dactilar
 
 ### Requisitos
 
